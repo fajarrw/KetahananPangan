@@ -1,0 +1,40 @@
+body {
+    background-image: url('./assets/bg.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main { 
+    padding: 18.75em 5em;    
+}
+
+h1 {
+    font-family: 'Cormorant';
+    font-size: 3em;
+    font-weight: 700;
+    text-align: justify;
+}
+
+p {
+    font-family: 'Inter';
+    font-weight: 400;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    main {
+        padding: 18.75em 2em;
+    }
+    h1 {
+        font-size: 1.5em;
+    }   
+}
